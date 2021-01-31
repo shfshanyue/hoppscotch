@@ -290,7 +290,7 @@ export default {
   },
   head() {
     return {
-      title: `Settings • Hoppscotch`,
+      title: `设置 • Postwoman • 免费在线 API 管理工具 • 程序员工具箱`,
     }
   },
 }

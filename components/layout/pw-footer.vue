@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="row-wrapper">
       <span class="flex flex-col font-mono md:flex-row" style="align-items: start">
-        <a class="footer-link" href="https://www.netlify.com" target="_blank" rel="noopener">
+        <!-- <a class="footer-link" href="https://www.netlify.com" target="_blank" rel="noopener">
           Powered by Netlify
         </a>
         <span class="footer-link"> Sponsored by </span>
@@ -34,14 +34,14 @@
           title="GitHub"
           class="footer-link"
           loading="lazy"
-        ></iframe>
+        ></iframe> -->
       </span>
       <span class="flex flex-col font-mono md:flex-row" style="align-items: start">
-        <a href="mailto:liyascthomas@gmail.com" target="_blank" rel="noopener">
+        <!-- <a href="mailto:liyascthomas@gmail.com" target="_blank" rel="noopener">
           <button class="icon" v-tooltip="$t('contact_us')">
             <i class="material-icons">email</i>
           </button>
-        </a>
+        </a> -->
         <v-popover>
           <button class="icon" v-tooltip="$t('choose_language')">
             <i class="material-icons">translate</i>

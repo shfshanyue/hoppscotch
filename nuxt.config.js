@@ -1,8 +1,8 @@
 // Common options
 export const options = {
-  name: "Hoppscotch",
-  shortDescription: "A free, fast and beautiful API request builder",
-  description: "Helps you create requests faster, saving precious time on development.",
+  name: "Postwoman",
+  shortDescription: "免费、方便、快捷的 API 请求管理工具",
+  description: "Postwoman, Postman 替代品。一个简单漂亮的 API 测试、文档、请求管理器，可在线上管理前后端联调的接口。",
   loading: {
     color: "var(--ac-color)",
     background: "var(--bg-color)",
@@ -114,6 +114,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // https://github.com/nuxt-community/gtm-module
+    "@nuxtjs/gtm",
     // https://github.com/nuxt-community/axios-module
     "@nuxtjs/axios",
     // https://github.com/nuxt-community/modules/tree/master/packages/toast
@@ -163,6 +165,8 @@ export default {
   // Google Tag Manager module configuration (https://github.com/nuxt-community/gtm-module)
   gtm: {
     id: process.env.GTM_ID,
+    enabled: true,
+    pageTracking: true
   },
 
   // Sitemap module configuration (https://github.com/nuxt-community/sitemap-module)
@@ -181,7 +185,7 @@ export default {
   // Color Mode module configuration (https://github.com/nuxt-community/color-mode-module)
   colorMode: {
     classSuffix: "",
-    preference: "dark",
+    preference: "system",
     fallback: "dark",
   },
 
@@ -291,15 +295,15 @@ export default {
         file: "nl-BE.json",
       },
     ],
-    defaultLocale: "en",
+    defaultLocale: "cn",
     vueI18n: {
-      fallbackLocale: "en",
+      fallbackLocale: "cn",
     },
     lazy: true,
     langDir: "lang/",
     detectBrowserLanguage: {
       alwaysRedirect: true,
-      fallbackLocale: "en",
+      fallbackLocale: "cn",
     },
   },
 
@@ -347,8 +351,9 @@ export default {
   // Public runtime configuration (https://nuxtjs.org/guide/runtime-config)
   publicRuntimeConfig: {
     GA_ID: process.env.GA_ID || "UA-61422507-4",
-    GTM_ID: process.env.GTM_ID || "GTM-NMKVBMV",
-    BASE_URL: process.env.BASE_URL || "https://hoppscotch.io",
+    // DEVTOOL.GTAG
+    GTM_ID: process.env.GTM_ID || "G-B0BG6J2K56",
+    BASE_URL: process.env.BASE_URL || "https://postwoman.devtool.tech",
   },
 
   // Private runtime configuration (https://nuxtjs.org/guide/runtime-config)

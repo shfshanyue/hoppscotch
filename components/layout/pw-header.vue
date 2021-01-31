@@ -3,10 +3,10 @@
     <div class="row-wrapper">
       <span class="slide-in">
         <nuxt-link :to="localePath('index')">
-          <h1 class="hide-on-small-screen logo">Hoppscotch</h1>
+          <h1 class="hide-on-small-screen logo">Postwoman</h1>
           <h1 class="show-on-small-screen logo">Hs</h1>
         </nuxt-link>
-        <iframe
+        <!-- <iframe
           src="https://ghbtns.com/github-btn.html?user=hoppscotch&repo=hoppscotch&type=star&count=true"
           frameborder="0"
           scrolling="0"
@@ -15,10 +15,10 @@
           title="GitHub"
           class="ml-8"
           loading="lazy"
-        ></iframe>
+        ></iframe> -->
       </span>
       <span>
-        <a
+        <!-- <a
           href="https://www.deta.sh/?ref=hoppscotch"
           target="_blank"
           rel="noopener"
@@ -26,7 +26,7 @@
         >
           Deploy your api for free on Deta
           <img class="w-8 ml-2" src="~assets/images/deta_portal.svg" alt="Deta" />
-        </a>
+        </a> -->
         <button
           class="icon"
           id="installPWA"
@@ -104,7 +104,7 @@
               <i class="material-icons">keyboard</i>
               <span>{{ $t("shortcuts") }}</span>
             </button>
-            <button class="icon" @click="showSupport = true" v-close-popover>
+            <!-- <button class="icon" @click="showSupport = true" v-close-popover>
               <i class="material-icons">favorite</i>
               <span>{{ $t("support_us") }}</span>
             </button>
@@ -119,7 +119,7 @@
                 />
               </svg>
               <span>Tweet</span>
-            </button>
+            </button> -->
             <button
               v-if="navigatorShare"
               class="icon"

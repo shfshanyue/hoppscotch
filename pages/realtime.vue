@@ -26,7 +26,7 @@
 export default {
   head() {
     return {
-      title: `Realtime • Hoppscotch`,
+      title: `SocketIO/SSE/WebScoket/MQTT 长连接测试管理工具 • Postwoman • 程序员工具箱`,
     }
   },
 }
