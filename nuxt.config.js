@@ -171,7 +171,7 @@ export default {
 
   // Sitemap module configuration (https://github.com/nuxt-community/sitemap-module)
   sitemap: {
-    hostname: process.env.BASE_URL || "https://hoppscotch.io",
+    hostname: process.env.BASE_URL || "https://postwoman.devtool.tech",
   },
 
   // Robots module configuration (https://github.com/nuxt-community/robots-module)
@@ -350,7 +350,7 @@ export default {
 
   // Public runtime configuration (https://nuxtjs.org/guide/runtime-config)
   publicRuntimeConfig: {
-    GA_ID: process.env.GA_ID || "UA-61422507-4",
+    GA_ID: process.env.GA_ID || "UA-102193749-5",
     // DEVTOOL.GTAG
     GTM_ID: process.env.GTM_ID || "G-B0BG6J2K56",
     BASE_URL: process.env.BASE_URL || "https://postwoman.devtool.tech",

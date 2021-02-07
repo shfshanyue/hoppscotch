@@ -26,7 +26,7 @@
 export default {
   head() {
     return {
-      title: `SocketIO/SSE/WebScoket/MQTT 长连接测试管理工具 • Postwoman • 程序员工具箱`,
+      title: `SocketIO/SSE/WebScoket/MQTT 长连接测试管理工具 • Postwoman • 开发者工具箱`,
     }
   },
 }

@@ -968,7 +968,7 @@ export default {
   },
   head() {
     return {
-      title: `GraphQL • Postwoman • 免费在线 API 管理工具 • 程序员工具箱`,
+      title: `GraphQL • Postwoman • 免费在线 API 管理工具 • 开发者工具箱`,
     }
   },
 }

@@ -4,7 +4,7 @@ describe("jsonParse", () => {
   test("parses without errors for valid JSON", () => {
     const testJSON = JSON.stringify({
       name: "hoppscotch",
-      url: "https://hoppscotch.io",
+      url: "https://postwoman.devtool.tech",
       awesome: true,
       when: 2019,
     })

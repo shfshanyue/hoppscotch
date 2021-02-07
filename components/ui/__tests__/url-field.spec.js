@@ -22,7 +22,7 @@ describe("url-field", () => {
   })
   test("highlights environment variables", () => {
     const wrapper = factory({
-      value: "https://hoppscotch.io/<<testa>>/<<testb>>",
+      value: "https://postwoman.devtool.tech/<<testa>>/<<testb>>",
     })
 
     const highlights = wrapper.findAll(".highlight-VAR").wrappers

@@ -3,8 +3,10 @@
     <div class="row-wrapper">
       <span class="slide-in">
         <nuxt-link :to="localePath('index')">
-          <h1 class="hide-on-small-screen logo">Postwoman</h1>
-          <h1 class="show-on-small-screen logo">Hs</h1>
+          <h1 class="hide-on-small-screen logo">
+            Postwoman<span class="text-gray-300">.devtool.tech</span>
+          </h1>
+          <h1 class="show-on-small-screen logo">Postwoman</h1>
         </nuxt-link>
         <!-- <iframe
           src="https://ghbtns.com/github-btn.html?user=hoppscotch&repo=hoppscotch&type=star&count=true"
@@ -110,7 +112,7 @@
             </button>
             <button
               class="icon"
-              onClick="window.open('https://twitter.com/share?text=👽 Hoppscotch • A free, fast and beautiful API request builder - Helps you create requests faster, saving precious time on development.&url=https://hoppscotch.io&hashtags=hoppscotch&via=liyasthomas');"
+              onClick="window.open('https://twitter.com/share?text=👽 Hoppscotch • A free, fast and beautiful API request builder - Helps you create requests faster, saving precious time on development.&url=https://postwoman.devtool.tech&hashtags=hoppscotch&via=liyasthomas');"
               v-close-popover
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -303,7 +305,7 @@ export default {
             title: "Hoppscotch",
             text:
               "Hoppscotch • A free, fast and beautiful API request builder - Helps you create requests faster, saving precious time on development.",
-            url: "https://hoppscotch.io",
+            url: "https://postwoman.devtool.tech",
           })
           .then(() => {})
           .catch(console.error)
